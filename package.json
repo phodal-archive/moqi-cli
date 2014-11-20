@@ -1,10 +1,17 @@
 {
   "name": "moqi-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Moqi CMS Command line tool",
   "main": "index.js",
+  "bin": {
+    "moqi": "moqi.js"
+  },
   "scripts": {
     "test": "moqi"
+  },
+  "dependencies": {
+    "commander": "2.5.0",
+    "ncp": "1.0.1"
   },
   "repository": {
     "type": "git",
