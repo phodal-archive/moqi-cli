@@ -1,0 +1,25 @@
+{
+  "name": "moqi-cli",
+  "version": "0.0.1",
+  "description": "Moqi CMS Command line tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "moqi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/phodal/moqi-cli.git"
+  },
+  "keywords": [
+    "moqi",
+    "cms",
+    "moqi",
+    "cli"
+  ],
+  "author": "Phodal Huang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phodal/moqi-cli/issues"
+  },
+  "homepage": "https://github.com/phodal/moqi-cli"
+}
