@@ -18,6 +18,9 @@ if (!program.args[0]) {
 }
 
 if(program.create) {
-    function puts(error, stdout, stderr) { sys.puts(stdout) }
-    exec("git clone git@github.com:phodal/freerice.git " + program.args[0], puts);
+    exec("git clone git@github.com:mokcy/moqi.git " + program.args[0],
+        function (error, stdout, stderr) {
+            sys.puts(stderr);
+        }
+    );
 }

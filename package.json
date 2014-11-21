@@ -1,6 +1,6 @@
 {
   "name": "moqi-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Moqi CMS Command line tool",
   "main": "index.js",
   "bin": {
